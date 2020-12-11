@@ -97,7 +97,7 @@ function send(event, php){
 
         //E-mail Ajax Send
         $("form").submit(function() { //Change
-            var th = $(this);
+            let th = $(this);
             $.ajax({
                 type: "POST",
                 url: "mail.php", //Change
